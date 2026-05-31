@@ -10,8 +10,14 @@ export const words = [
 ]
 
 export const counterItems = [
-    {value: 3, suffix: "+", label: "Años de Estudios Universitarios"},
-    {value: 15, suffix: "+", label: "Tecnologías Dominadas"},
-    {value: 15, suffix: "+", label: "Proyectos Completados"},
-    {value: 97, suffix: "+", label: "Promedio Académico"},
+    { value: 3, suffix: "+", label: "Años de Estudios Universitarios" },
+    { value: 15, suffix: "+", label: "Tecnologías Dominadas" },
+    { value: 15, suffix: "+", label: "Proyectos Completados" },
+    { value: 97, suffix: "+", label: "Promedio Académico" },
+]
+
+export const navLinks = [
+    { name: "Work", link: "#work" },
+    { name: "About", link: "#about" },
+    { name: "Contact", link: "#contact" },
 ]
