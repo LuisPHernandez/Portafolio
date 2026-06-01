@@ -25,14 +25,14 @@ const Hero = () => {
                     <div className="flex flex-col gap-7">
                         <div className="hero-text">
                             <h1>
-                                Shaping
+                                Convirtiendo
                                 <span className="slide">
                                     <span className="wrapper">
                                         {words.map((word, index) => (
                                             <span key={`${word.text}-${index}`} className="flex items-center md:gap-3 gap-1 pb-2">
-                                                <img 
-                                                    src={word.imgPath} 
-                                                    alt={word.text} 
+                                                <img
+                                                    src={word.imgPath}
+                                                    alt={word.text}
                                                     className="xl:size-12 md:size-10 size-7 md:p-2 p-1 rounded-full bg-white-50"
                                                 />
 
@@ -42,24 +42,24 @@ const Hero = () => {
                                     </span>
                                 </span>
                             </h1>
-                            <h1>into Real Projects</h1>
-                            <h1>that Deliver Results</h1>
+                            <h1>en Soluciones Digitales</h1>
+                            <h1>que Marcan la Diferencia</h1>
                         </div>
                     </div>
 
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none pb-4">
-                        Hi, I'm Luis Pedro, a developer based in Guatemala with a passion for code.
+                        Hola, mi nombre es Luis Pedro Hernandez, soy estudiante de Ingeniería en Ciencias de la Computación en la UVG, apasionado por construir soluciones completas, desde la interfaz hasta el servidor. Con cada proyecto busco no solo escribir código, sino crear experiencias que resuelvan problemas reales.
                     </p>
                     <Button
                         className="md:w-80 md:h-16 w-60 h-12"
                         id="button"
-                        text="See my work"
+                        text="Ver proyectos"
                     />
                 </header>
 
                 {/*HERO 3D MODEL*/}
                 <figure>
-                    <div className="hero-3d-layout border-red-200">
+                    <div className="hero-3d-layout hover:cursor-grab">
                         <HeroExperience />
                     </div>
                 </figure>

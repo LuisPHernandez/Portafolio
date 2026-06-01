@@ -1,12 +1,12 @@
 export const words = [
     { text: 'Ideas', imgPath: '/images/ideas.svg' },
-    { text: 'Designs', imgPath: '/images/designs.svg' },
-    { text: 'Concepts', imgPath: '/images/concepts.svg' },
+    { text: 'Diseños', imgPath: '/images/designs.svg' },
+    { text: 'Conceptos', imgPath: '/images/concepts.svg' },
     { text: 'Ideas', imgPath: '/images/ideas.svg' },
-    { text: 'Designs', imgPath: '/images/designs.svg' },
-    { text: 'Concepts', imgPath: '/images/concepts.svg' },
+    { text: 'Diseños', imgPath: '/images/designs.svg' },
+    { text: 'Conceptos', imgPath: '/images/concepts.svg' },
     { text: 'Ideas', imgPath: '/images/ideas.svg' },
-    { text: 'Designs', imgPath: '/images/designs.svg' },
+    { text: 'Diseños', imgPath: '/images/designs.svg' },
 ]
 
 export const counterItems = [
@@ -17,9 +17,9 @@ export const counterItems = [
 ]
 
 export const navLinks = [
-    { name: "Work", link: "#work" },
-    { name: "About", link: "#about" },
-    { name: "Contact", link: "#contact" },
+    { name: "Proyectos", link: "#work" },
+    { name: "Stack", link: "#skills" },
+    { name: "Contacto", link: "#contact" },
 ]
 
 export const logoIconsList = [
@@ -38,4 +38,12 @@ export const abilities = [
     { imgPath: "/images/ability1.png", title: "Aprendizaje Rápido", desc: "Me adapto rápidamente a nuevas tecnologías y frameworks, aplicándolos en proyectos reales desde el primer día." },
     { imgPath: "/images/ability2.png", title: "Resolución de Problemas", desc: "Analizo y descompongo problemas complejos en soluciones simples, aplicando lógica y pensamiento crítico." },
     { imgPath: "/images/ability3.png", title: "Trabajo en Equipo", desc: "Colaboro efectivamente en proyectos grupales, comunicando ideas técnicas de forma clara." },
+]
+
+export const techStackIcons = [
+    { name: "TypeScript/React", modelPath: "/models/react_logo-transformed.glb", scale: 1, rotation: [0, 0, 0] },
+    { name: "Python/FastAPI", modelPath: "/models/python-transformed.glb", scale: 0.8, rotation: [0, 0, 0] },
+    { name: "Git/GitHub", modelPath: "/models/git-svg-transformed.glb", scale: 0.05, rotation: [0, -0.5, 0] },
+    { name: "PHP/Laravel", modelPath: "/models/laravel.glb", scale: 18, rotation: [0, -1.5, 0] },
+    { name: "Docker", modelPath: "/models/docker_logo.glb", scale: 45, rotation: [0, 0, 0] },
 ]
