@@ -25,7 +25,7 @@ const Hero = () => {
                     <div className="flex flex-col gap-7">
                         <div className="hero-text">
                             <h1>
-                                Convirtiendo
+                                Developer
                                 <span className="slide">
                                     <span className="wrapper">
                                         {words.map((word, index) => (
@@ -42,13 +42,13 @@ const Hero = () => {
                                     </span>
                                 </span>
                             </h1>
-                            <h1>en Soluciones Digitales</h1>
-                            <h1>que Marcan la Diferencia</h1>
+                            <h1>desde Guatemala,</h1>
+                            <h1>con proyectos publicados</h1>
                         </div>
                     </div>
 
                     <p className="text-white-50 md:text-xl relative z-10 pointer-events-none pb-4">
-                        Hola, mi nombre es Luis Pedro Hernandez, soy estudiante de Ingeniería en Ciencias de la Computación en la UVG, apasionado por construir soluciones completas, desde la interfaz hasta el servidor. Con cada proyecto busco no solo escribir código, sino crear experiencias que resuelvan problemas reales.
+                        Hola, mi nombre es Luis Pedro Hernandez, soy estudiante de Ingeniería en Ciencias de la Computación en la Universidad del Valle de Guatemala, apasionado por construir soluciones completas, desde la interfaz hasta el servidor. Con cada proyecto busco no solo escribir código, sino crear experiencias que resuelvan problemas reales.
                     </p>
                     <Button
                         className="md:w-80 md:h-16 w-60 h-12"
